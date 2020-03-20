@@ -1,2 +1,10 @@
-/MapDemo/Google-Service-Info.plist
+# Pods
+Podfile
+Podfile.lock
+Pods/
+
+*/GoogleService-Info.plist
+
+## User settings
+xcuserdata/
 
