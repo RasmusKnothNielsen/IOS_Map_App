@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,15 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hHh-kM-2EG">
-                                <rect key="frame" x="31" y="61" width="352" height="556"/>
+                                <rect key="frame" x="0.0" y="44" width="424" height="852"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="hHh-kM-2EG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="17" id="COI-10-e5N"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hHh-kM-2EG" secondAttribute="bottom" constant="245" id="hbj-LQ-mLm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hHh-kM-2EG" secondAttribute="trailing" constant="31" id="hrC-hY-Lsl"/>
-                            <constraint firstItem="hHh-kM-2EG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="n89-IR-WbP"/>
+                            <constraint firstItem="hHh-kM-2EG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XMt-nX-Zkg"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hHh-kM-2EG" secondAttribute="bottom" constant="-34" id="c5Z-u9-nIm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hHh-kM-2EG" secondAttribute="trailing" constant="-30" id="phT-cs-8hO"/>
+                            <constraint firstItem="hHh-kM-2EG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vmx-Id-kVW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

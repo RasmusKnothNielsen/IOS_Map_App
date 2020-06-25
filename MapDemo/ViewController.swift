@@ -132,15 +132,14 @@ class ViewController: UIViewController {
         map.addAnnotation(markerVenue)
     }
 
-
 }
 
 // Extension
-// The cool thing about an extension is that every class can extend it?
+// The cool thing about an extension is that every class can extend it
 extension ViewController: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print("new location: \(locations.first?.coordinate)")
+        print("new location: \(String(describing: locations.first?.coordinate))")
         // Move the map view to the location
         if let coordinate = locations.last?.coordinate {
             let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 2000, longitudinalMeters: 2000)

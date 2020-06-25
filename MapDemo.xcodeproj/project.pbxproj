@@ -15,7 +15,7 @@
 		3A9FFB942424A9DE00B83BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9FFB922424A9DE00B83BDD /* LaunchScreen.storyboard */; };
 		3AF9BB752424BF3C00C4E2DB /* FirebaseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9BB742424BF3C00C4E2DB /* FirebaseRepo.swift */; };
 		3AF9BB772424E1AB00C4E2DB /* MapDataAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9BB762424E1AB00C4E2DB /* MapDataAdapter.swift */; };
-		3AF9BB7924251C9200C4E2DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AF9BB7824251C9200C4E2DB /* GoogleService-Info.plist */; };
+		596FF29024A4C98F00015B94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 596FF28F24A4C98F00015B94 /* GoogleService-Info.plist */; };
 		9688A972ED2C96E4617B2967 /* Pods_MapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94746E01C30DCF35F63D4C44 /* Pods_MapDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		3A9FFB952424A9DE00B83BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AF9BB742424BF3C00C4E2DB /* FirebaseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepo.swift; sourceTree = "<group>"; };
 		3AF9BB762424E1AB00C4E2DB /* MapDataAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataAdapter.swift; sourceTree = "<group>"; };
-		3AF9BB7824251C9200C4E2DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		596FF28F24A4C98F00015B94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		94746E01C30DCF35F63D4C44 /* Pods_MapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A7FA2EC6887C95CBF73FD2 /* Pods-MapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapDemo.release.xcconfig"; path = "Target Support Files/Pods-MapDemo/Pods-MapDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				3A9FFB902424A9DE00B83BDD /* Assets.xcassets */,
 				3A9FFB922424A9DE00B83BDD /* LaunchScreen.storyboard */,
 				3A9FFB952424A9DE00B83BDD /* Info.plist */,
-				3AF9BB7824251C9200C4E2DB /* GoogleService-Info.plist */,
+				596FF28F24A4C98F00015B94 /* GoogleService-Info.plist */,
 			);
 			path = MapDemo;
 			sourceTree = "<group>";
@@ -168,8 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596FF29024A4C98F00015B94 /* GoogleService-Info.plist in Resources */,
 				3A9FFB942424A9DE00B83BDD /* LaunchScreen.storyboard in Resources */,
-				3AF9BB7924251C9200C4E2DB /* GoogleService-Info.plist in Resources */,
 				3A9FFB912424A9DE00B83BDD /* Assets.xcassets in Resources */,
 				3A9FFB8F2424A9DD00B83BDD /* Main.storyboard in Resources */,
 			);
